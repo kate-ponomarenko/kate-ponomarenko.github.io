@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding-top: 6rem;
+}
+
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6rem;
+    background-image: radial-gradient(circle at 20% -32%, #FFC236 0%, #FF611F 22%, #CD0EB2 100%);
+    /* background: transparent radial-gradient(closest-side at 20% -32%, #FFC236 0%, #FF611F 22%, #CD0EB2 100%) 0% 0% no-repeat padding-box; */
+    box-shadow: 0px 20px 40px #00000029;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-header__brand-title {
+    display: flex;
+    align-items: center;
+}
+
+.main-header__brand {
+    text-decoration: none;
+    /* font-weight: bold; */
+  }
+  
+.main-header__brand img {
+    height: 2.5rem;
+    vertical-align: middle;
+} 
+
+.main-header__title {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white;
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+
+.main-nav__item {
+    margin: 0 1rem;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: white;
+}
+
+.greeting-container {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.greeting__info-container {
+    width: 40%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.greeting__info--title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #7E7E7E;
+    margin: 1.5rem 0;
+}
+
+.greeting__info--main-text {
+    font-size: 1.25rem;
+    font-weight: 200;
+    color: #5F5F5F;
+    margin: 0;
+}
+
+.greeting__info--connect {
+    margin: 3rem 0 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.greeting__info--connect div {
+    height: 3rem;
+    width: 3rem;
+    border: 1px solid black;
+}
+
+.greeting__info--connect p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #FF992C;
+    margin: 0 0 0 1.25rem;
+}
+
+
+
+
+.greeting__photo-container {
+    width: 35%;
+    border: 1px solid black;
+}
