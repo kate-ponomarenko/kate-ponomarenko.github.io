@@ -96,26 +96,26 @@ body {
 }
 
 .greeting__info--connect {
-    margin: 3rem 0 0 0;
+    margin: 1rem 0 0 0;
     display: flex;
     align-items: center;
 }
 
-.greeting__info--connect div {
-    height: 3rem;
-    width: 3rem;
-    border: 1px solid black;
+.greeting__info--connect img {
+    height: 8rem;
+    width: 8rem;
+    position: relative;
+    right: 2.3rem;
 }
 
 .greeting__info--connect p {
+    position: relative;
+    right: 3.5rem;
     font-size: 1.125rem;
     font-weight: 400;
     color: #FF992C;
-    margin: 0 0 0 1.25rem;
+    margin: 0 0 1.3rem 0;
 }
-
-
-
 
 .greeting__photo-container {
     width: 35%;
