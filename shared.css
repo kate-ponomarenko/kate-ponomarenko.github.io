@@ -14,6 +14,8 @@ body {
     padding-top: 6rem;
 }
 
+/* HEADER */
+
 .main-header {
     position: fixed;
     top: 0;
@@ -26,6 +28,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    z-index: 1;
 }
 
 .main-header__brand-title {
@@ -67,15 +70,16 @@ body {
     color: white;
 }
 
+/* GREETING */
+
 .greeting-container {
-    height: 1000px;
+    height: 40rem;
     display: flex;
     justify-content: center;
 }
 
 .greeting__info-container {
     width: 40%;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -117,7 +121,187 @@ body {
     margin: 0 0 1.3rem 0;
 }
 
-.greeting__photo-container {
+.greeting__photo {
+    background-image: url("images/greeting-photo.png"), url("images/greeting-ellipse.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 25rem, 33rem;
+    background-origin: border-box, border-box;
+    background-position: right center, 55% 45%;
     width: 35%;
-    border: 1px solid black;
 }
+
+/* TOOLS */
+
+.tools-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8F8;
+}
+
+.tools__items {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tools__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tools__title {
+    font-size: 3.25rem;
+    font-weight: 400;
+    color: #7E7E7E;
+}
+
+.tools__item--title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #5F5F5F;
+    margin: 0;
+}
+
+.tools__item--image {
+    position: relative;
+    left: 0.75rem;
+}
+
+/* SKILLS */
+
+.skills-container {
+    height: 45rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8F8;
+}
+
+.skills-container > p {
+    font-size: 3.25rem;
+    font-weight: 400;
+    color: #7E7E7E;
+}
+
+.skills-blocks-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills-block {
+    width: 22rem;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0.6rem 1.25rem 2.5rem #E6E6E6;
+    border-radius: 2.1rem;
+}
+
+.skills-block__entity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-block__entity > p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #5F5F5F;
+}
+
+.skills-block__entity:first-child > p {
+    margin-top: 0;
+}
+
+.skills-block__entity--level {
+    display: flex;
+}
+
+.lvl_1 {
+    height: 1rem;
+    width: 1rem;
+    margin: 0 0.3rem;
+    border: 0.5rem solid #F15D2C;
+    border-radius: 0.5rem;
+}
+
+.lvl_0 {
+    height: 1rem;
+    width: 1rem;
+    margin: 0 0.3rem;
+    border: 1px solid #F15D2C;
+    border-radius: 0.5rem;
+}
+
+/* WORK EXPERIENCE */
+
+.work-exp-container {
+    height: 55rem;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-exp-container > p {
+    font-weight: 400;
+    font-size: 3.25rem;
+    color: #7E7E7E;
+}
+
+.work-exp__row {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.work-exp__element-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 22rem;
+    margin: 3rem 0;
+    /* border: 1px solid black; */
+}
+
+.work-exp__element-box > p {
+    margin: 0.5rem 0;
+}
+
+.work-exp__element--circle {
+    height: 2.5rem;
+    width: 2.5rem;
+    box-shadow: 0.3rem 0.6rem 1.9rem #CD0EB24D;
+    border: 0.5rem solid #CD0EB2;
+    border-radius: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.work-exp__element--title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #5F5F5F;
+}
+
+.work-exp__element--org-location {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #5F5F5F;
+}
+
+.work-exp__element--term {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #CD0EB2;
+}
+
+/* PROJECTS */
