@@ -305,3 +305,251 @@ body {
 }
 
 /* PROJECTS */
+
+.projects-container {
+    height: 150rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10rem;;
+}
+
+.projects-container > p {
+    margin-top: 7rem;
+    font-size: 3.25rem;
+    font-weight: 400;
+    color: #7E7E7E;
+}
+
+.projects__row {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 58rem;
+}
+
+.projects__entity--container {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project__entity--background {
+    position: absolute;
+    width: 40rem;
+    height: 40rem;
+    border-radius: 50%;
+}
+
+#hire-designer > .project__entity--background {
+    background-color: rgba(188, 44, 241, 0.05);
+}
+
+#hire-designer > img {
+    position: relative;
+    width: 53rem;
+    bottom: 3rem;
+}
+
+#food-app > .project__entity--background {
+    background-color: rgba(242, 34, 82, 0.05);
+}
+
+#food-app > img {
+    position: relative;
+    width: 31rem;
+    top: 4rem;
+}
+
+#bikes > .project__entity--background {
+    background-color: rgba(255, 163, 0, 0.05);
+}
+
+#bikes > img {
+    position: relative;
+    width: 40rem;
+    top: 7rem;
+}
+
+#church > .project__entity--background {
+    background-color: rgba(157, 199, 0, 0.05);
+}
+
+#church > img {
+    position: relative;
+    width: 53rem;
+}
+
+.projects__entity--name {
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects__entity--name img {
+    height: 8rem;
+    width: 8rem;
+    position: relative;
+    right: 2.3rem;
+}
+
+.projects__entity--name > p {
+    position: relative;
+    right: 3.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #7E7E7E;
+    margin: 0 0 1.3rem 0;
+}
+
+/* LETS CONNECT */
+
+.lets-connect__container {
+    /* height: 69rem; */ /* form disabled */
+    height: 50rem;
+    width: 100vw;
+    background: radial-gradient(ellipse at 28% -1%, rgba(255, 194, 54, 1) 0%, rgba(255, 97, 31, 1) 34%, rgba(205, 14, 178, 1) 100%) 0% 0% no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lets-connect__container > p {
+    font-size: 3.25rem;
+    color: white;
+    font-weight: 200;
+    margin-top: 0;
+}
+
+.lets-connect__main-box {
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-between; */ /* form disabled */
+    justify-content: center;
+}
+
+.lets-connect__contact-info--container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 35%;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.11) 0% 0% no-repeat padding-box;
+    border-radius: 2rem;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.16);
+}
+
+.lets-connect__contact-info--container > p {
+    margin: 1.5rem 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+.lets-connect__contact-info--email-container {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.lets-connect__contact-info--email-container > p {
+    font-size: 1.13rem;
+    text-decoration: underline;
+    font-weight: 200;
+    color: white;
+    margin-left: 1rem;
+}
+
+.lets-connect__contact-info--email-container > img {
+    width: 3.5rem;
+}
+
+.lets-connect__contact-info--linkedin-container {
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.lets-connect__contact-info--linkedin-container > p {
+    font-size: 1.13rem;
+    text-decoration: underline;
+    font-weight: 200;
+    color: white;
+    margin-left: 1rem;
+}
+
+.lets-connect__contact-info--linkedin-container > img {
+    width: 3.5rem;
+}
+
+.lets-connect__resume-button--box {
+    display: flex;
+    background: rgba(255, 153, 44, 1) 0% 0% no-repeat padding-box;
+    width: 19rem;
+    height: 5rem;
+    border-radius: 2.5rem;
+    align-items: center;
+    text-decoration: none;
+}
+
+.lets-connect__resume-button--box > img {
+    margin-left: 1.5rem;
+    width: 3.4rem;
+    height: 3.4rem;
+}
+
+.lets-connect__resume-button--box > p {
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 200;
+    margin-left: 1.5rem;
+}
+
+.lets-connect__form--container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lets-connect__form--row {
+    margin-bottom: 2.7rem;
+    width: 100%;
+    height: 3.24rem;
+    background-color: white;
+    border-radius: 1.62rem;
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.16);
+}
+
+.lets-connect__form--row > p {
+    font-size: 1.1rem;
+    font-weight: 200;
+    color: rgba(126, 126, 126, 1);
+    margin: 0.9rem 0 0 2rem;
+}
+
+#message {
+    height: 12.5rem;
+}
+
+.lets-connect__form--send-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 10.5rem;
+    box-shadow: 10px 20px 40px rgba(114, 114, 114, 0.16);
+    border-radius: 1.5rem;
+    background-color: rgba(255, 153, 44, 1);
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 200;
+}
+
+.lets-connect__form--send-button > p {
+    margin: 0;
+}
