@@ -467,8 +467,8 @@ body {
 }
 
 .lets-connect__contact-info--email-container {
-    min-width: 26rem;
-    max-width: 26rem;
+    min-width: 24.5rem;
+    max-width: 24.5rem;
     display: flex;
     align-items: center;
     margin-top: 1rem;
@@ -490,8 +490,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    min-width: 26rem;
-    max-width: 26rem;
+    min-width: 24.5rem;
+    max-width: 24.5rem;
+    margin-bottom: 1rem;
 }
 
 .lets-connect__contact-info--linkedin-container > img {
