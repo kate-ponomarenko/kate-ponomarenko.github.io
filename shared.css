@@ -443,14 +443,13 @@ body {
     width: 90%;
     display: flex;
     align-items: flex-start;
-    /* justify-content: space-between; */ /* form disabled */
     justify-content: center;
 }
 
 .lets-connect__contact-info--container {
+    min-width: 27rem;
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
     align-items: center;
     width: 35%;
     padding: 2rem;
@@ -459,19 +458,23 @@ body {
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.16);
 }
 
-.lets-connect__contact-info--container > p {
+.lets-connect__contact-info--container > a {
     margin: 1.5rem 0;
     font-size: 2.5rem;
     font-weight: 700;
     color: white;
+    text-decoration: none;
 }
 
 .lets-connect__contact-info--email-container {
+    min-width: 26rem;
+    max-width: 26rem;
     display: flex;
+    align-items: center;
     margin-top: 1rem;
 }
 
-.lets-connect__contact-info--email-container > p {
+.lets-connect__contact-info--email-container > a {
     font-size: 1.13rem;
     text-decoration: underline;
     font-weight: 200;
@@ -485,10 +488,17 @@ body {
 
 .lets-connect__contact-info--linkedin-container {
     display: flex;
-    margin-bottom: 3rem;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 26rem;
+    max-width: 26rem;
 }
 
-.lets-connect__contact-info--linkedin-container > p {
+.lets-connect__contact-info--linkedin-container > img {
+    width: 3.5rem;
+}
+
+.lets-connect__contact-info--linkedin-container > a {
     font-size: 1.13rem;
     text-decoration: underline;
     font-weight: 200;
@@ -496,17 +506,13 @@ body {
     margin-left: 1rem;
 }
 
-.lets-connect__contact-info--linkedin-container > img {
-    width: 3.5rem;
-}
-
 .lets-connect__resume-button--box {
     display: flex;
+    align-items: center;
     background: rgba(255, 153, 44, 1) 0% 0% no-repeat padding-box;
     width: 19rem;
     height: 5rem;
     border-radius: 2.5rem;
-    align-items: center;
     text-decoration: none;
 }
 
